@@ -1,0 +1,5503 @@
+{
+ "note": "product-code subset (src/, tests excluded) of jev-scan.json",
+ "scannedAt": "2026-09-19T06:11:23.437Z",
+ "count": 687,
+ "hits": [
+  {
+   "file": "src/app/src/components/ui/json-textarea.stories.tsx",
+   "line": 71,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/components/ui/json-textarea.stories.tsx",
+   "line": 72,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 2048,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/components/ui/json-textarea.stories.tsx",
+   "line": 112,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { temperature: 0.7 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/components/ui/json-textarea.stories.tsx",
+   "line": 116,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { temperature: 0.5 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval/components/ProviderDisplay.tsx",
+   "line": 229,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "// Provider without colon (e.g., \"echo\", \"ollama\") - just show name",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval/components/providerConfig.ts",
+   "line": 8,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* - temperature, max_tokens, etc.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval/components/providerConfig.ts",
+   "line": 48,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval/components/providerConfig.ts",
+   "line": 355,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (config.max_tokens) {",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/eval/components/providerConfig.ts",
+   "line": 358,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "value: formatNumber(config.max_tokens),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval/components/providerConfig.ts",
+   "line": 359,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "tooltip: `Max tokens: ${config.max_tokens}`,",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/AddProviderDialog.tsx",
+   "line": 272,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "if (id.includes('langchain')) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/AddProviderDialog.tsx",
+   "line": 273,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "return 'langchain';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/AddProviderDialog.tsx",
+   "line": 281,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "if (id.includes('llamaindex')) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/AddProviderDialog.tsx",
+   "line": 282,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "return 'llamaindex';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/ConfigureEnvButton.tsx",
+   "line": 109,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envKey=\"OPENAI_API_KEY\"",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/ConfigureEnvButton.tsx",
+   "line": 110,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "value={env.OPENAI_API_KEY || ''}",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/ConfigureEnvButton.tsx",
+   "line": 178,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envKey=\"ANTHROPIC_API_KEY\"",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/eval-creator/components/ConfigureEnvButton.tsx",
+   "line": 179,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "value={env.ANTHROPIC_API_KEY || ''}",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/AgentFrameworkConfiguration.tsx",
+   "line": 27,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "langchain: {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/AgentFrameworkConfiguration.tsx",
+   "line": 30,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "pip: 'langchain langchain-openai',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/AgentFrameworkConfiguration.tsx",
+   "line": 42,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "llamaindex: {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/AgentFrameworkConfiguration.tsx",
+   "line": 50,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "pip: 'langgraph langchain-openai',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 234,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 235,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 258,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 265,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "case 'ollama':",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 284,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 307,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 308,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 330,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 357,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 417,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 418,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/CustomTargetConfiguration.tsx",
+   "line": 419,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKey: '{{OPENAI_API_KEY}}',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 120,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const initial = { id: 'bedrock:global.anthropic.claude-sonnet-5', config: { max_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 168,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "renderEditor({ id: 'bedrock:amazon.nova-pro-v1:0', config: { max_tokens: 512 } }",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 180,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { max_tokens: 512 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 198,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { max_tokens: 512 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 219,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const config = { max_tokens: 512, region: 'us-west-2', profile: 'work' };",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 239,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { region: 'us-west-2', profile: 'work', max_tokens: 2048 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.browser.tsx",
+   "line": 247,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config: { region: 'us-west-2', profile: 'work', max_tokens: 2048 },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 190,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const source = bedrockApiMode === 'responses' ? 'max_output_tokens' : 'max_token",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 191,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const destination = apiMode === 'responses' ? 'max_output_tokens' : 'max_tokens'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 268,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'OPENAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 276,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'ANTHROPIC_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 283,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'GOOGLE_API_KEY | GEMINI_API_KEY | PALM_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 297,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'MISTRAL_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 304,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'COHERE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 311,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'GROQ_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 318,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'DEEPSEEK_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 339,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "envVar: 'OPENROUTER_API_KEY',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 646,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": ": (selectedTarget.config?.max_tokens ?? '')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 650,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "bedrockApiMode === 'responses' ? 'max_output_tokens' : 'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/FoundationModelConfiguration.tsx",
+   "line": 702,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": ": 'https://api.openai.com/v1'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderConfigEditor.tsx",
+   "line": 464,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Validate that max_tokens is positive if provided",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderConfigEditor.tsx",
+   "line": 465,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (provider.config?.max_tokens !== undefined && provider.config.max_tokens <= 0",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderConfigEditor.tsx",
+   "line": 730,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "{['ollama', 'vllm', 'localai', 'llamafile', 'llama.cpp', 'text-generation-webui'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 130,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "value: 'langchain',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 160,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "value: 'llamaindex',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 363,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "value: 'ollama',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 702,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "} else if (value === 'ollama') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 709,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "'ollama',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 885,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "} else if (value === 'langchain') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 888,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "id: 'file:///path/to/langchain_agent.py',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 892,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "'langchain',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 912,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "} else if (value === 'llamaindex') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 915,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "id: 'file:///path/to/llamaindex_agent.py',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/ProviderTypeSelector.tsx",
+   "line": 919,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "'llamaindex',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/consts.ts",
+   "line": 4,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "'langchain',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/consts.ts",
+   "line": 7,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "'llamaindex',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/consts.ts",
+   "line": 56,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "#     temperature=0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/providerDocumentationMap.ts",
+   "line": 32,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "langchain: `${BASE_DOCS_URL}/python`,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/app/src/pages/redteam/setup/components/Targets/providerDocumentationMap.ts",
+   "line": 37,
+   "category": "sdk",
+   "id": "llamaindex",
+   "snippet": "llamaindex: `${BASE_DOCS_URL}/python`,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/commands/exampleAliases.ts",
+   "line": 93,
+   "category": "sdk",
+   "id": "langchain",
+   "snippet": "'langchain-python': 'integration-langchain',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 9,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "ANTHROPIC_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 43,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "COHERE_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 52,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "FIREWORKS_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 56,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "GOOGLE_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 62,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "GEMINI_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 63,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "GROQ_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 79,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "MISTRAL_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 96,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "OPENAI_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 127,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "TOGETHER_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/contracts/env.ts",
+   "line": 143,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "XAI_API_KEY: z.string().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 255,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "ANTHROPIC_API_KEY?: string;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 334,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "GROQ_API_KEY?: string;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 394,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "OPENAI_API_KEY?: string;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 420,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "OPENROUTER_API_KEY?: string;",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 454,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "TOGETHER_API_KEY?: string;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/envars.ts",
+   "line": 476,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "XAI_API_KEY?: string;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/integrations/portkey.ts",
+   "line": 11,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/integrations/portkey.ts",
+   "line": 12,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/matchers/moderation.ts",
+   "line": 36,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const hasOpenAiKey = getEnvString('OPENAI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 161,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Use options like: \\`this.config.temperature\\`, \\`this.config.max_tokens\\`, et",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 258,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "export OPENAI_API_KEY=sk-...",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 260,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "# export ANTHROPIC_API_KEY=sk-ant-...",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 261,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "# export GOOGLE_API_KEY=...",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 305,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "openai: 'OPENAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 306,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "anthropic: 'ANTHROPIC_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 307,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "vertex: 'GOOGLE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 308,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "google: 'GOOGLE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/onboarding.ts",
+   "line": 309,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "cohere: 'COHERE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/abliteration.ts",
+   "line": 61,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// model names. All Abliteration models support it while retaining max_tokens.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ai21.ts",
+   "line": 66,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ai21.ts",
+   "line": 175,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config?.temperature ?? 0.1,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ai21.ts",
+   "line": 177,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: config?.max_tokens ?? 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/completion.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/completion.ts",
+   "line": 23,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: params.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/completion.ts",
+   "line": 69,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Anthropic API key is not set. Set the ANTHROPIC_API_KEY environment variable or",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/completion.ts",
+   "line": 87,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature ?? getEnvFloat('ANTHROPIC_TEMPERATURE', 0),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/completion.ts",
+   "line": 119,
+   "category": "call",
+   "id": "chat-completion",
+   "snippet": "response = await this.anthropic.completions.create(params);",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 3,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 14,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type { ClientOptions } from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 44,
+   "category": "endpoint",
+   "id": "anthropic",
+   "snippet": "* `ANTHROPIC_CUSTOM_HEADERS` is scoped to api.anthropic.com, so anything it",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 197,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* rather than a standard `ANTHROPIC_API_KEY`. Subclasses use this to inject",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 278,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Run `claude /login` to create one, or set ANTHROPIC_API_KEY.',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/generic.ts",
+   "line": 357,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config?.apiKey || this.env?.ANTHROPIC_API_KEY || getEnvString('ANTHR",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import { APIError } from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 50,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 118,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: params.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 121,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: params.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 441,
+   "category": "call",
+   "id": "message-create",
+   "snippet": "response = (await this.anthropic.messages.create(nextParams, {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 521,
+   "category": "endpoint",
+   "id": "anthropic",
+   "snippet": "new URL(this.anthropic.baseURL).hostname.toLowerCase() === 'api.anthropic.com'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 529,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Anthropic API key is not set. Set the ANTHROPIC_API_KEY environment variable or",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 574,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 575,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 632,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "*   enabled — callers size the default `max_tokens` off this, and treating it as",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 655,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* `thinking` field still runs adaptive. Only used to size the default `max_token",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 912,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: clampMaxTokensForThinkingBudget(",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 913,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 922,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature:",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/messages.ts",
+   "line": 1066,
+   "category": "call",
+   "id": "message-create",
+   "snippet": "initialMessage = (await this.anthropic.messages.create(",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/types.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/types.ts",
+   "line": 115,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 3,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 220,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* requests that never set `thinking` still spend thinking tokens against `max_to",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 267,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// thinking blocks and bills thinking tokens against `max_tokens` (verified live",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 347,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* so that thinking-token headroom (e.g. the default `max_tokens`) reflects what ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 356,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* normalized by {@link normalizeClaudeThinkingConfig}. Thinking shares the `max_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 357,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* budget with the answer, so providers size their default `max_tokens` off this ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 410,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Raise `max_tokens` above a manual thinking budget.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 412,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Anthropic rejects any request where `max_tokens <= thinking.budget_tokens` wit",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 413,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* \"`max_tokens` must be greater than `thinking.budget_tokens`\" — thinking draws ",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 416,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* `thinking: { type: 'enabled', budget_tokens: 8000 }` and leaves `max_tokens` a",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/anthropic/util.ts",
+   "line": 420,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* keep their own `max_tokens` defaults, which legitimately differ per platform; ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/assistant.ts",
+   "line": 212,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: this.assistantConfig.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/assistant.ts",
+   "line": 216,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.assistantConfig.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/assistant.ts",
+   "line": 276,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "runOptions.temperature = this.assistantConfig.temperature;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 77,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Reasoning models use max_completion_tokens instead of max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 125,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* `max_tokens`, `max_completion_tokens`, `temperature`, and `reasoning_effort: l",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 141,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* or `top_p`. These models keep the standard `max_tokens` field (not",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 217,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const maxTokens = config.max_tokens ?? maxTokensDefault;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 226,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature = config.temperature ?? temperatureDefault;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 265,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(maxTokens === undefined ? {} : { max_tokens: maxTokens }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 266,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined || samplingParamsDeprecated ? {} : { temperature }",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 269,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// model here — it keeps max_tokens and temperature, unlike o-series/GPT-5. Forw",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 344,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/chat.ts",
+   "line": 345,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/completion.ts",
+   "line": 40,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: this.config.max_tokens ?? getEnvInt('OPENAI_MAX_TOKENS', 1024),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/completion.ts",
+   "line": 41,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature ?? getEnvFloat('OPENAI_TEMPERATURE', 0),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/foundry-agent.ts",
+   "line": 456,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_output_tokens ?? config.max_completion_tokens ?? config.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/foundry-agent.ts",
+   "line": 487,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(config.temperature === undefined ? {} : { temperature: config.temperature })",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/foundry-agent.ts",
+   "line": 739,
+   "category": "call",
+   "id": "chat-completion",
+   "snippet": "response = await openAIClient.responses.create(",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/foundry-agent.ts",
+   "line": 766,
+   "category": "call",
+   "id": "chat-completion",
+   "snippet": "response = await openAIClient.responses.create(",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/responses.ts",
+   "line": 85,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Reasoning models use max_completion_tokens instead of max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/responses.ts",
+   "line": 167,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature = this.supportsTemperature(capabilityModelName)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/responses.ts",
+   "line": 242,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined ? {} : { temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/types.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type { AssistantCreationOptions, FunctionDefinition } from '@azure/openai",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/types.ts",
+   "line": 55,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/azure/types.ts",
+   "line": 122,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* When true, omit hardcoded defaults for temperature, max_tokens, top_p, etc.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 15,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "} from '@aws-sdk/client-bedrock-agent-runtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 176,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "*       temperature: 0.7  # Can be specified at root level for convenience",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 229,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { BedrockAgentRuntimeClient } = await import('@aws-sdk/client-bedrock-agen",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 242,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'The @aws-sdk/client-bedrock-agent-runtime package is required. Please install i",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 362,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "(inferenceConfig as any).temperature = this.config.inferenceConfig.temperature;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 374,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "(inferenceConfig as any).temperature = this.config.temperature;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/agents.ts",
+   "line": 542,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { InvokeAgentCommand } = await import('@aws-sdk/client-bedrock-agent-runti",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/anthropicMessages.ts",
+   "line": 10,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type { ClientOptions } from '@anthropic-ai/sdk';",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/bedrock/anthropicMessages.ts",
+   "line": 21,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "? `https://bedrock-runtime.${region}.amazonaws.com/anthropic`",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/base.ts",
+   "line": 14,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "import type { BedrockRuntime, Trace } from '@aws-sdk/client-bedrock-runtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/base.ts",
+   "line": 200,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { BedrockRuntime } = await import('@aws-sdk/client-bedrock-runtime');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/base.ts",
+   "line": 216,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'The @aws-sdk/client-bedrock-runtime package is required as a peer dependency. P",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 45,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 61,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "} from '@aws-sdk/client-bedrock-runtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 77,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number; // Alias for compatibility",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 863,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "this.config.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 893,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature = reasoningEnabled || samplingParamsDeprecated ? undefined : t",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 905,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined ? {} : { temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 1113,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: inferenceConfig?.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 1218,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { ConverseCommand } = await import('@aws-sdk/client-bedrock-runtime');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/converse.ts",
+   "line": 1675,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { ConverseStreamCommand } = await import('@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 91,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 118,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 139,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 185,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 221,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 229,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 393,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 433,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 463,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* wire format over `InvokeModel`: the request body is `{ messages, max_tokens, .",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 468,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* standard `max_tokens` field — Writer Palmyra in particular rejects `max_comple",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 469,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* — so this handler always sends `max_tokens`.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 671,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "addConfigParam(params, 'max_tokens', config?.max_tokens, getEnvInt('MISTRAL_MAX_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 749,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 750,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1216,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1217,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1393,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: _temp,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1610,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Models that think by default (Opus 5) spend part of max_tokens on thinking ev",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1624,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1625,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1666,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// max_tokens was resolved above, before the thinking config was known. Anthropi",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1668,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (typeof params.max_tokens === 'number') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1669,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "params.max_tokens = clampMaxTokensForThinkingBudget(params.max_tokens, thinking)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1778,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1779,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1837,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "addConfigParam(params, 'max_tokens', config?.max_tokens);",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1891,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1892,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1941,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 1942,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2141,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2142,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config?.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2227,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Google (Gemma), and Writer (Palmyra). Request body is `{ messages, max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2230,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* Differs from the gpt-oss `OPENAI` handler by sending `max_tokens` (not",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2246,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "addConfigParam(params, 'max_tokens', config?.max_tokens, getEnvInt('AWS_BEDROCK_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2508,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// use `{ messages, max_tokens, ... }` -> `{ choices: [{ message: { content } }]",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2736,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "// which the InvokeModel (bedrock-runtime) API does not serve — reject it with t",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/index.ts",
+   "line": 2743,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "`gpt-oss model. promptfoo's bedrock: provider calls the InvokeModel (bedrock-run",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 13,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "} from '@aws-sdk/client-bedrock-agent-runtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 29,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 117,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { BedrockAgentRuntimeClient } = await import('@aws-sdk/client-bedrock-agen",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 129,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "`The @aws-sdk/client-bedrock-agent-runtime package is required as a peer depende",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 138,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const { max_tokens } = this.kbConfig;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 149,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(max_tokens !== undefined && { maxTokens: max_tokens }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/knowledgeBase.ts",
+   "line": 263,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { RetrieveAndGenerateCommand } = await import('@aws-sdk/client-bedrock-age",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/luma-ray.ts",
+   "line": 220,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/luma-ray.ts",
+   "line": 263,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-reel.ts",
+   "line": 198,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-reel.ts",
+   "line": 241,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 11,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "} from '@aws-sdk/client-bedrock-runtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 90,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 132,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: inference?.temperature ?? DEFAULT_CONFIG.inference.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 147,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "const { BedrockRuntimeClient } = await import('@aws-sdk/client-bedrock-runtime')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 165,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'The @aws-sdk/client-bedrock-runtime and @smithy/node-http-handler packages are ",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/bedrock/nova-sonic.ts",
+   "line": 373,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "'@aws-sdk/client-bedrock-runtime'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/util.ts",
+   "line": 14,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "* The @aws-sdk/client-bedrock-runtime package defaults to HTTP/2, which causes",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/bedrock/util.ts",
+   "line": 18,
+   "category": "sdk",
+   "id": "bedrock",
+   "snippet": "* For @aws-sdk/client-bedrock-agent-runtime (which already defaults to HTTP/1.1)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cerebras.ts",
+   "line": 41,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Cerebras API doesn't support both max_tokens and max_completion_tokens",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cerebras.ts",
+   "line": 42,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// If max_completion_tokens is set, use it and remove max_tokens",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cerebras.ts",
+   "line": 44,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "delete body.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/claude-agent-sdk.ts",
+   "line": 55,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "} from '@anthropic-ai/claude-agent-sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/claude-agent-sdk.ts",
+   "line": 1496,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "env.ANTHROPIC_API_KEY = effectiveApiKey;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/claude-agent-sdk.ts",
+   "line": 1512,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "dedent`Anthropic API key is not set. Set the ANTHROPIC_API_KEY environment varia",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/claude-agent-sdk.ts",
+   "line": 2003,
+   "category": "call",
+   "id": "agent-run",
+   "snippet": "// sub-agent (Task tool with run_in_background: true) into the parent",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/claude-agent-sdk.ts",
+   "line": 2426,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config?.apiKey || this.env?.ANTHROPIC_API_KEY || getEnvString('ANTHR",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 22,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type { ClientOptions } from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 81,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "openai: { apiKeyEnvar: 'OPENAI_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 82,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "anthropic: { apiKeyEnvar: 'ANTHROPIC_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 83,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "groq: { apiKeyEnvar: 'GROQ_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 84,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'perplexity-ai': { apiKeyEnvar: 'PERPLEXITY_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 85,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'google-ai-studio': { apiKeyEnvar: 'GOOGLE_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 86,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "mistral: { apiKeyEnvar: 'MISTRAL_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 87,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "cohere: { apiKeyEnvar: 'COHERE_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 92,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "grok: { apiKeyEnvar: 'XAI_API_KEY' },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 382,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const { apiKey, max_tokens, temperature, top_p, cost } = config;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 387,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(max_tokens !== undefined && { max_tokens }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cloudflare-gateway.ts",
+   "line": 483,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "*       temperature: 0.7",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 40,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 83,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.apiKey = config?.apiKey || env?.COHERE_API_KEY || getEnvString('COHERE_API_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 117,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 119,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: config.max_tokens,",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 156,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 0.3,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 189,
+   "category": "endpoint",
+   "id": "cohere",
+   "snippet": "'https://api.cohere.ai/v1/chat',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 263,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.COHERE_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 264,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('COHERE_API_KEY')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/cohere.ts",
+   "line": 269,
+   "category": "endpoint",
+   "id": "cohere",
+   "snippet": "return this.config.apiBaseUrl || 'https://api.cohere.com/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/deepseek.ts",
+   "line": 115,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: 'DEEPSEEK_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/deepseek.ts",
+   "line": 116,
+   "category": "endpoint",
+   "id": "deepseek",
+   "snippet": "apiBaseUrl: 'https://api.deepseek.com/v1',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 61,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "env?.GEMINI_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 62,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GEMINI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 63,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "env?.GOOGLE_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 64,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GOOGLE_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 70,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "if (env?.MISTRAL_API_KEY || getEnvString('MISTRAL_API_KEY')) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 96,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('ANTHROPIC_API_KEY') || env?.ANTHROPIC_API_KEY,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 98,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const hasOpenAiCredentials = Boolean(getEnvString('OPENAI_API_KEY') || env?.OPEN",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 100,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GEMINI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 101,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "env?.GEMINI_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 102,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GOOGLE_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 103,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "env?.GOOGLE_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 116,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const hasMistralCredentials = Boolean(getEnvString('MISTRAL_API_KEY') || env?.MI",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/defaults.ts",
+   "line": 117,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const hasXAICredentials = Boolean(getEnvString('XAI_API_KEY') || env?.XAI_API_KE",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/elevenlabs/agents/conversation.ts",
+   "line": 120,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: simulatedUser.temperature ?? 0.7,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/elevenlabs/agents/conversation.ts",
+   "line": 121,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Optional: llm, max_tokens, tool_ids, etc.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/elevenlabs/agents/index.ts",
+   "line": 213,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config?.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/elevenlabs/agents/index.ts",
+   "line": 214,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: config?.maxTokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/families/google.ts",
+   "line": 28,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: { ...providerOptions.config, vertexai: true },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/families/google.ts",
+   "line": 37,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: { ...providerOptions.config, vertexai: true },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/families/google.ts",
+   "line": 94,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: { ...providerOptions.config, vertexai: false },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/fireworks/chat.ts",
+   "line": 100,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Don't fall through to OPENAI_API_KEY: a misconfigured environment must",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/fireworks/embedding.ts",
+   "line": 26,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Don't fall through to OPENAI_API_KEY: a misconfigured environment must fail",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/fireworks/shared.ts",
+   "line": 8,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "export const DEFAULT_FIREWORKS_API_KEY_ENVAR = 'FIREWORKS_API_KEY';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/fireworks/shared.ts",
+   "line": 40,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Resolve the Fireworks API key without ever falling back to OPENAI_API_KEY: a",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 44,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "const DEFAULT_API_HOST = 'generativelanguage.googleapis.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 69,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: { ...options.config, vertexai: false },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 76,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "* @param action - Optional action like 'generateContent'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 184,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google API key is not set. Set the GOOGLE_API_KEY or GEMINI_API_KEY environment",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 203,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 315,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google API key is not set. Set the GOOGLE_API_KEY or GEMINI_API_KEY environment",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 361,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(config.temperature !== undefined && { temperature: config.temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 413,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = this.getApiEndpoint('generateContent');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/ai.studio.ts",
+   "line": 617,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google API key is not set. Set the GOOGLE_API_KEY or GEMINI_API_KEY environment",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 10,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 3. GOOGLE_API_KEY (primary - Python SDK alignment)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 11,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 4. GEMINI_API_KEY (secondary)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 87,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai?: boolean;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 127,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "| 'GOOGLE_API_KEY'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 128,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "| 'GEMINI_API_KEY'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 152,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 3. GOOGLE_API_KEY (primary - Python SDK alignment)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 153,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 4. GEMINI_API_KEY (secondary)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 176,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'[Google] VERTEX_API_KEY is not a standard SDK env var. Use GOOGLE_API_KEY inste",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 182,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// 3. GOOGLE_API_KEY (primary - SDK aligned)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 183,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const googleKey = env?.GOOGLE_API_KEY || getEnvString('GOOGLE_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 185,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// 4. GEMINI_API_KEY (secondary, AI Studio only - not in SDK, for backward compa",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 188,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": ": env?.GEMINI_API_KEY || getEnvString('GEMINI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 193,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// SDK alignment: note when both GOOGLE_API_KEY and GEMINI_API_KEY are set",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 194,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// This is not an error - GOOGLE_API_KEY correctly takes precedence (SDK-aligned",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 197,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'[Google] Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 202,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return { apiKey: googleKey, source: 'GOOGLE_API_KEY' };",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 207,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'[Google] GEMINI_API_KEY is not a standard SDK env var. Consider using GOOGLE_AP",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 209,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return { apiKey: geminiKey, source: 'GEMINI_API_KEY' };",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 213,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "logger.warn('[Google] PALM_API_KEY is deprecated. Use GOOGLE_API_KEY instead.');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 228,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "const { apiKey, credentials, projectId, region, vertexai, strictMutualExclusivit",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 251,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (useVertexEnv && vertexai === false) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 253,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "'[Google] GOOGLE_GENAI_USE_VERTEXAI is set but vertexai: false was specified in ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 275,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (vertexai && !apiKey && !projectId && !cloudProject && !credentials) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 292,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* 1. Explicit vertexai config flag",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 302,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: CompletionOptions & { vertexai?: boolean },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 306,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (config.vertexai !== undefined) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 307,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "return config.vertexai;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/auth.ts",
+   "line": 334,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "'Set vertexai: true/false explicitly to suppress this message.',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/base.ts",
+   "line": 363,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai: this.isVertexMode,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 87,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "* Uses the Gemini generateContent API with responseModalities set to include ima",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 121,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GOOGLE_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 123,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GEMINI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 124,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.GOOGLE_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 126,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.GEMINI_API_KEY",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 178,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'1. Google AI Studio: Set GOOGLE_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY, or GEMIN",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 191,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'API key not found. Set GOOGLE_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY, or GEMINI_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 195,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "const apiHost = this.config.apiHost || 'generativelanguage.googleapis.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 199,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = `https://${apiHost}/${apiVersion}/models/${this.modelName}:gene",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 264,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = `${baseUrl}/${apiVersion}/projects/${projectId}/locations/${loc",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/gemini-image.ts",
+   "line": 303,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(this.config.temperature !== undefined && { temperature: this.config.temperat",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 137,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'1. Google AI Studio: Set GOOGLE_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY, or GEMIN",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 218,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'API key not found. Set GOOGLE_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY, or GEMINI_",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 223,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${mode",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 352,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GOOGLE_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 354,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('GEMINI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 355,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.GOOGLE_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/image.ts",
+   "line": 357,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.GEMINI_API_KEY",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 220,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "return 'https://generativelanguage.googleapis.com/v1beta/interactions';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 278,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config.vertexai = false;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 282,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (config.vertexai && (config.previousInteractionId || passthroughPreviousInter",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 303,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (config.vertexai) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 355,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Gemini Interactions API requires an API key. Set GOOGLE_API_KEY, GOOGLE_GENERAT",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 367,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "...(config.vertexai ? [] : ['temperature', 'top_p', 'topP']),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 382,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "...(config.vertexai && config.temperature !== undefined",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 383,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "? { temperature: config.temperature }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 385,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "...(config.vertexai && config.topP !== undefined ? { top_p: config.topP } : {}),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 414,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config.vertexai && typeof interactionInput === 'string'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 417,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "response_format: config.vertexai",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 545,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "if (config.vertexai && downloadUrl.protocol === 'gs:') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 554,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config.vertexai && downloadUrl.origin === 'https://storage.googleapis.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 559,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "downloadUrl.hostname === 'generativelanguage.googleapis.com')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/interactions.ts",
+   "line": 698,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config.vertexai,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/live.ts",
+   "line": 296,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Priority aligned with Python SDK: GOOGLE_API_KEY > GEMINI_API_KEY",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/live.ts",
+   "line": 297,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config.apiKey || getEnvString('GOOGLE_API_KEY') || getEnvString('GEM",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/live.ts",
+   "line": 326,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google authentication is not configured. Set GOOGLE_API_KEY or GEMINI_API_KEY, ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/live.ts",
+   "line": 344,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "url: `wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.${",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/live.ts",
+   "line": 894,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 5,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* for Gemini models, with the mode determined by the `vertexai` config flag.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 12,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* new GoogleProvider('gemini-2.5-pro', { config: { vertexai: true, projectId: 'm",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 62,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "const DEFAULT_AI_STUDIO_HOST = 'generativelanguage.googleapis.com';",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 111,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* `vertexai` configuration option (Python SDK alignment).",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 114,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* 1. Explicit `vertexai: true/false` in config",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 198,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "* @param action - Optional action like 'generateContent'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 274,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 1. API key is available (VERTEX_API_KEY, GOOGLE_API_KEY, or config.apiKey)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 327,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google API key is not set. Set the GOOGLE_API_KEY or GEMINI_API_KEY environment",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 386,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(config.temperature !== undefined && { temperature: config.temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 457,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = config.streaming === true ? 'streamGenerateContent' : 'generate",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 470,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = config.streaming === true ? 'streamGenerateContent' : 'generate",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/provider.ts",
+   "line": 492,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = this.getApiEndpoint('generateContent');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 222,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number; // Alternative format for Claude models",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 422,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* (VERTEX_API_KEY, GOOGLE_API_KEY, or config.apiKey). Set to `false` to",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 472,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* the Python SDK's `vertexai=True` parameter.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 476,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* { vertexai: false }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 480,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* { vertexai: true, projectId: 'my-project', region: 'us-central1' }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 484,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* { vertexai: true, apiKey: 'your-key' }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 493,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "* This mirrors the Python SDK's `vertexai=True` parameter.",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 502,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai?: boolean;",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 539,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/types.ts",
+   "line": 625,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai?: boolean;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/util.ts",
+   "line": 51,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai = false,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/util.ts",
+   "line": 62,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "return vertexai ? `SERVICE_TIER_${normalized.toUpperCase()}` : normalized;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 170,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config: { ...options.config, vertexai: true },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 269,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 271,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.maxOutputTokens || this.config.max_tokens,",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 357,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Thinking shares the max_tokens budget with the answer, and Opus 5 thinks even",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 361,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "let maxTokens = this.config.max_tokens || this.config.maxOutputTokens || 0;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 383,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: maxTokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 384,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: resolvedTemperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 522,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* 1. API key is available (VERTEX_API_KEY, GOOGLE_API_KEY, or config.apiKey)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 595,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 690,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "// Default to non-streaming (generateContent) since:",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 694,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "const endpoint = config.streaming === true ? 'streamGenerateContent' : 'generate",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 977,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 1103,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: this.config.maxOutputTokens || 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 1105,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 1122,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: body.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/vertex.ts",
+   "line": 1123,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: body.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 55,
+   "category": "endpoint",
+   "id": "google-ai",
+   "snippet": "const AI_STUDIO_BASE_URL = 'https://generativelanguage.googleapis.com/v1beta';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 198,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "config as CompletionOptions & { vertexai?: boolean },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 237,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google API key is not set. Set GOOGLE_API_KEY or GEMINI_API_KEY, or add `apiKey",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 877,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai: true,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 886,
+   "category": "sdk",
+   "id": "google-ai",
+   "snippet": "vertexai: true,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 892,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google Veo video generation via Google AI Studio requires an API key. Set GOOGL",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/google/video.ts",
+   "line": 898,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Google Veo video generation via Google AI Studio requires an API key. Set GOOGL",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/chat.ts",
+   "line": 8,
+   "category": "endpoint",
+   "id": "groq",
+   "snippet": "const GROQ_API_BASE_URL = 'https://api.groq.com/openai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/chat.ts",
+   "line": 27,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const apiKeyEnvar = this.config.apiKeyEnvar || 'GROQ_API_KEY';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/chat.ts",
+   "line": 48,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: providerOptions.config?.apiKeyEnvar || 'GROQ_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/responses.ts",
+   "line": 7,
+   "category": "endpoint",
+   "id": "groq",
+   "snippet": "const GROQ_API_BASE_URL = 'https://api.groq.com/openai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/responses.ts",
+   "line": 30,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "const apiKeyEnvar = this.config.apiKeyEnvar || 'GROQ_API_KEY';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/groq/responses.ts",
+   "line": 51,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: providerOptions.config?.apiKeyEnvar || 'GROQ_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/http.ts",
+   "line": 2207,
+   "category": "call",
+   "id": "agent-run",
+   "snippet": "* - Meta-agent (fresh session): The strategy may pass a client-generated UUID or",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/huggingface.ts",
+   "line": 96,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Map max_new_tokens to max_tokens if not already set",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/huggingface.ts",
+   "line": 98,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_tokens === undefined && { max_tokens: config.max_new_tokens }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/huggingface.ts",
+   "line": 206,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/litellm.ts",
+   "line": 171,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// omitDefaults: true ensures temperature/max_tokens are not sent unless explici",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/llama.ts",
+   "line": 50,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config?.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/localai.ts",
+   "line": 63,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature:",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/localai.ts",
+   "line": 147,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature:",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mcp/transform.ts",
+   "line": 11,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type { McpServerConfig as ClaudeCodeMcpServerConfig } from '@anthropic-ai",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mcp/transform.ts",
+   "line": 12,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type Anthropic from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 6,
+   "category": "sdk",
+   "id": "anthropic",
+   "snippet": "import type { ClientOptions } from '@anthropic-ai/sdk';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 103,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// provider we do NOT fall back to OPENAI_API_KEY, which would send an OpenAI",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 173,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// max_tokens alias is mapped to the canonical field.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 182,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const outputCap = passthrough.max_tokens ?? value;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 199,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const outputCap = passthrough.max_completion_tokens ?? passthrough.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 257,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (config.temperature === undefined && !('temperature' in passthrough)) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 261,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "body.temperature = 0;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 382,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// max_completion_tokens (max_tokens is only a deprecated alias upstream).",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 384,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// and skip the injected max_tokens default (1024), which would starve",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 424,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// The Meta API caps generation with max_completion_tokens (max_tokens is",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 425,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// only a deprecated alias); honor an explicit max_tokens as the canonical",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 427,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "applyMetaChatOutputCap(body, passthrough, config.max_completion_tokens ?? config",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 525,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_output_tokens ?? config.max_completion_tokens ?? config.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 571,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: metaConfig.max_tokens ?? DEFAULT_META_MAX_OUTPUT_TOKENS,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 572,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: metaConfig.temperature ?? 0,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/meta.ts",
+   "line": 625,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Meta-specific key resolution — never ANTHROPIC_API_KEY, which would send",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 224,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "| { max_completion_tokens?: unknown; max_tokens?: unknown }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 228,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "promptPassthrough?.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 230,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "promptConfig.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 232,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.passthrough?.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 234,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 240,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "delete body.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/minimax.ts",
+   "line": 243,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (config.temperature === undefined && config.passthrough?.temperature === unde",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 252,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 345,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 363,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: params.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 365,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: params.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 429,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 431,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: config.max_tokens ?? 1024,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 539,
+   "category": "endpoint",
+   "id": "mistral",
+   "snippet": "return 'https://api.mistral.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 568,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.MISTRAL_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 569,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('MISTRAL_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 592,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config?.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 594,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: config?.max_tokens,",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 629,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'Mistral API key is not set. Set the MISTRAL_API_KEY environment variable or add",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 780,
+   "category": "endpoint",
+   "id": "mistral",
+   "snippet": "return 'https://api.mistral.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 809,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.MISTRAL_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mistral.ts",
+   "line": 810,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('MISTRAL_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/mlflow-gateway.ts",
+   "line": 100,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Do not fall back to OPENAI_API_KEY: the gateway is a different service, and",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 42,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// values and reject any other value with a 400 (\"invalid temperature: only 1",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 112,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// base provider we do NOT fall back to OPENAI_API_KEY, which would send an",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 161,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// max_tokens to 1024, and top_p / penalties can leak from OPENAI_* env vars)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 191,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Moonshot's canonical field is max_completion_tokens (max_tokens is a",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 194,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// and drop the base provider's injected max_tokens: 1024 default so",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 198,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "| { max_completion_tokens?: unknown; max_tokens?: unknown }",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 202,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "promptPassthrough?.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 204,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "promptConfig.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 206,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.passthrough?.max_tokens ??",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 208,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "config.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 210,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "delete body.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/moonshot.ts",
+   "line": 221,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if (config.temperature === undefined && config.passthrough?.temperature === unde",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/novita.ts",
+   "line": 48,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(includeTextDefaults && config?.temperature === undefined ? { temperature: 1 ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/nvidia/chat.ts",
+   "line": 73,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Don't fall through to OPENAI_API_KEY: a misconfigured environment must",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ollama.ts",
+   "line": 243,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Unrecognized keys are silently discarded, which is how `max_tokens` (an OpenA",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ollama.ts",
+   "line": 498,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "system: 'ollama',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ollama.ts",
+   "line": 502,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ollama.ts",
+   "line": 651,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "system: 'ollama',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/ollama.ts",
+   "line": 655,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/agents-api.ts",
+   "line": 851,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "return new URL(this.getApiUrl()).hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/agents-api.ts",
+   "line": 860,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* An ambient OPENAI_API_KEY never reaches another host that has URL credentials ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/agents-types.ts",
+   "line": 104,
+   "category": "call",
+   "id": "agent-run",
+   "snippet": "* Model to use for the agent (overrides agent definition)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/agents-types.ts",
+   "line": 177,
+   "category": "call",
+   "id": "agent-run",
+   "snippet": "* Instructions for the agent (system prompt)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/assistant.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/assistant.ts",
+   "line": 19,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type { Metadata } from 'openai/resources/shared';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/assistant.ts",
+   "line": 210,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "request: { temperature: this.assistantConfig.temperature ?? undefined },",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/assistant.ts",
+   "line": 242,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "const openai = new OpenAI({",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/assistant.ts",
+   "line": 269,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.assistantConfig.temperature ?? undefined,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/billing.ts",
+   "line": 530,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "const OPENAI_REGIONAL_PROCESSING_HOSTNAMES = new Set(['us.api.openai.com', 'eu.a",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 40,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 212,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "isReasoningModel || isGPT5Model ? undefined : (config.max_tokens ?? maxTokensDef",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 221,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature = supportsTemperature",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 242,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(maxTokens === undefined ? {} : { max_tokens: maxTokens }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 245,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined ? {} : { temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 324,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// Sanitize body for models that reject max_tokens (e.g. GPT-5, reasoning models",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 325,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// This catches max_tokens introduced via passthrough or YAML anchors that bypas",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 327,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if ((isReasoningModel || isGPT5Model) && 'max_tokens' in body) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 328,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "delete body.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 395,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chat.ts",
+   "line": 396,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chatkit.ts",
+   "line": 13,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "*   - OPENAI_API_KEY environment variable set",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chatkit.ts",
+   "line": 213,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "const res = await fetch('https://api.openai.com/v1/chatkit/sessions', {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chatkit.ts",
+   "line": 1091,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: 'OpenAI API key is required. Set OPENAI_API_KEY environment variable.',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/chatkit.ts",
+   "line": 1115,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: 'OpenAI API key is required. Set OPENAI_API_KEY environment variable.',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-app-server.ts",
+   "line": 1267,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.OPENAI_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-app-server.ts",
+   "line": 1269,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('OPENAI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-app-server.ts",
+   "line": 1608,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "key !== 'OPENAI_API_KEY' && key !== 'CODEX_API_KEY' && !(key in (config.cli_env ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-sdk.ts",
+   "line": 747,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.OPENAI_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-sdk.ts",
+   "line": 749,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('OPENAI_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-sdk.ts",
+   "line": 817,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "key !== 'OPENAI_API_KEY' && key !== 'CODEX_API_KEY' && !(key in (config.cli_env ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codex-sdk.ts",
+   "line": 1043,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// OPENAI_API_KEY / CODEX_API_KEY isn't leaked to the agent shell when routing t",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/openai/codex-security.ts",
+   "line": 334,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "for (const key of ['OPENAI_API_KEY', 'CODEX_API_KEY'] as const) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexApiKeyGating.ts",
+   "line": 5,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* non-OpenAI `model_provider` (e.g. `amazon-bedrock`), an ambient `OPENAI_API_KE",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexApiKeyGating.ts",
+   "line": 54,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* OPENAI_API_KEY / CODEX_API_KEY is unrelated to the backend; never inject one, ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexApiKeyGating.ts",
+   "line": 66,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "sortedEnv.OPENAI_API_KEY = apiKey;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexApiKeyGating.ts",
+   "line": 71,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "for (const key of ['OPENAI_API_KEY', 'CODEX_API_KEY'] as const) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexDefaults.ts",
+   "line": 148,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Mirrors OpenAICodexSDKProvider.getApiKey(): either CODEX_API_KEY or OPENAI_AP",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexDefaults.ts",
+   "line": 153,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getCodexEnvString(env, 'CODEX_API_KEY') || getCodexEnvString(env, 'OPENAI_API_KE",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexDefaults.ts",
+   "line": 192,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Match OpenAICodexSDKProvider.getApiKey() resolution order: OPENAI_API_KEY fir",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/codexDefaults.ts",
+   "line": 196,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getCodexEnvString(env, 'OPENAI_API_KEY') || getCodexEnvString(env, 'CODEX_API_KE",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/completion.ts",
+   "line": 66,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: this.config.max_tokens ?? getEnvInt('OPENAI_MAX_TOKENS', 1024),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/completion.ts",
+   "line": 67,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature ?? getEnvFloat('OPENAI_TEMPERATURE', 0),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/completion.ts",
+   "line": 94,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: asNumber(body.max_tokens),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/completion.ts",
+   "line": 95,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: asNumber(body.temperature),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/gpt6.ts",
+   "line": 57,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "for (const key of ['temperature', 'top_p', 'logprobs', 'top_logprobs', 'max_toke",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/image.ts",
+   "line": 777,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "sendsToOpenAiApi = parsedUrl.hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/index.ts",
+   "line": 86,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "new URL(this.getApiUrl(config)).hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/openai/index.ts",
+   "line": 108,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "return 'https://api.openai.com/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/index.ts",
+   "line": 137,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "config.useDefaultApiKey === false ? [] : ['OPENAI_API_KEY'],",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/index.ts",
+   "line": 195,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return `API key is not set. Set the ${config.apiKeyEnvar || 'OPENAI_API_KEY'} en",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/live.ts",
+   "line": 101,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "if (url.hostname === 'api.openai.com' && !this.modelName.startsWith('gpt-live-')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/live.ts",
+   "line": 122,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Don't forward an ambient OPENAI_API_KEY to a gateway that authenticates with ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/live.ts",
+   "line": 126,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "url.hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/liveSession.ts",
+   "line": 11,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/liveTypes.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 215,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "sendsToOpenAiApi = parsedUrl.hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 931,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature =",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1008,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined ? {} : { temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1052,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// The Responses API uses max_output_tokens, never max_tokens; strip max_tokens ",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1054,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "if ('max_tokens' in body) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1055,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "delete body.max_tokens;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1090,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "// The Responses API uses `max_output_tokens` rather than `max_tokens`.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/responses.ts",
+   "line": 1110,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: asNumber(effectiveBody.temperature),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/tts.ts",
+   "line": 276,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "sendsToOpenAiApi = parsedUrl.hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/types.ts",
+   "line": 2,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/types.ts",
+   "line": 33,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/** Allow OPENAI_API_KEY when no credential variable is selected. */",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/types.ts",
+   "line": 140,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/types.ts",
+   "line": 216,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* When true, omit hardcoded defaults for temperature, max_tokens, top_p, etc.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/util.ts",
+   "line": 1,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/util.ts",
+   "line": 398,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "if (new URL(apiUrl).hostname.toLowerCase() !== 'api.openai.com') {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openai/video.ts",
+   "line": 545,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "sendsToOpenAiApi = parsedApiUrl.hostname.toLowerCase() === 'api.openai.com';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openclaw/chat.ts",
+   "line": 60,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Prevent fallback to OPENAI_API_KEY — only use OpenClaw-resolved auth",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openclaw/embedding.ts",
+   "line": 43,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Prevent fallback to OPENAI_API_KEY — only use OpenClaw-resolved auth.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openclaw/responses.ts",
+   "line": 76,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Prevent fallback to OPENAI_API_KEY — only use OpenClaw-resolved auth",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openclaw/shared.ts",
+   "line": 556,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "// Prevent OpenAI base class from falling back to OPENAI_API_KEY",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 169,
+   "category": "call",
+   "id": "agent-run",
+   "snippet": "/** Full OpenCode provider/model-id for this agent (e.g., 'anthropic/claude-sonn",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 260,
+   "category": "sdk",
+   "id": "ollama",
+   "snippet": "* LLM provider ID (e.g., 'anthropic', 'openai', 'google', 'ollama')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 887,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.env?.ANTHROPIC_API_KEY || getEnvString('ANTHROPIC_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 890,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.env?.OPENAI_API_KEY || getEnvString('OPENAI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 893,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.env?.GOOGLE_API_KEY || getEnvString('GOOGLE_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 898,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.ANTHROPIC_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 899,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('ANTHROPIC_API_KEY') ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 900,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "this.env?.OPENAI_API_KEY ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 901,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "getEnvString('OPENAI_API_KEY')",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/opencode-sdk.ts",
+   "line": 1119,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.custom_agent.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openrouter.ts",
+   "line": 8,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openrouter.ts",
+   "line": 44,
+   "category": "endpoint",
+   "id": "openrouter",
+   "snippet": "apiBaseUrl: providerOptions.config?.apiBaseUrl || 'https://openrouter.ai/api/v1'",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/openrouter.ts",
+   "line": 45,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: providerOptions.config?.apiKeyEnvar || 'OPENROUTER_API_KEY',",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/openrouter.ts",
+   "line": 166,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/openrouter.ts",
+   "line": 168,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.max_tokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/orcarouter.ts",
+   "line": 24,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "*  - `getApiKey()` does NOT fall back to `OPENAI_API_KEY` — sending an OpenAI ke",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/orcarouter.ts",
+   "line": 33,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "*    would also drop `max_tokens`, which Anthropic / DeepSeek do accept.",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/orcarouter.ts",
+   "line": 82,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* Resolve the API key without the base class's `OPENAI_API_KEY` fallback — users",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/orcarouter.ts",
+   "line": 182,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* `max_tokens` — Anthropic / DeepSeek native APIs accept `max_tokens`, only the",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/perplexity.ts",
+   "line": 138,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: 'PERPLEXITY_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/portkey.ts",
+   "line": 53,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* request body parameter (`max_tokens`) or promptfoo bookkeeping (`basePath`); f",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/portkey.ts",
+   "line": 185,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "* unset) and otherwise fell back to `OPENAI_API_KEY`, sending an OpenAI key to t",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/portkey.ts",
+   "line": 195,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config.apiKey || this.env?.OPENAI_API_KEY || getEnvString('OPENAI_AP",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/promptfoo.ts",
+   "line": 222,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "- Or provide OPENAI_API_KEY for local generation (may have lower quality)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/registry.ts",
+   "line": 135,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "if (isCodexSDK && (layer.OPENAI_API_KEY || layer.CODEX_API_KEY)) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/registry.ts",
+   "line": 136,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "delete merged.OPENAI_API_KEY;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/registry.ts",
+   "line": 1064,
+   "category": "endpoint",
+   "id": "openai",
+   "snippet": "'https://api.openai.com/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/replicate.ts",
+   "line": 36,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens?: number;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/replicate.ts",
+   "line": 291,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/replicate.ts",
+   "line": 293,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: this.config.max_tokens ?? this.config.max_length ?? this.config.max_n",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/replicate.ts",
+   "line": 350,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: this.config.temperature ?? getEnvFloat('REPLICATE_TEMPERATURE'),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/sagemaker.ts",
+   "line": 59,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: z.number().optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/sagemaker.ts",
+   "line": 457,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature =",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/sagemaker.ts",
+   "line": 458,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "typeof this.config.temperature === 'number'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/sagemaker.ts",
+   "line": 479,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: maxTokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/sagemaker.ts",
+   "line": 491,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: maxTokens,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/snowflake.ts",
+   "line": 7,
+   "category": "sdk",
+   "id": "openai",
+   "snippet": "import type OpenAI from 'openai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/snowflake.ts",
+   "line": 27,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* - Supports text generation parameters such as temperature and max_tokens",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/togetherai.ts",
+   "line": 69,
+   "category": "endpoint",
+   "id": "together",
+   "snippet": "apiBaseUrl: config.apiBaseUrl || 'https://api.together.xyz/v1',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/togetherai.ts",
+   "line": 70,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: config.apiKeyEnvar || 'TOGETHER_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/transformers.ts",
+   "line": 465,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "generationOptions.temperature = this.config.temperature;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/transformers.ts",
+   "line": 488,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: generationOptions.temperature,",
+   "decisionShaped": true
+  },
+  {
+   "file": "src/providers/vercel.ts",
+   "line": 10,
+   "category": "sdk",
+   "id": "vercel-ai",
+   "snippet": "import type { LanguageModelUsage } from 'ai';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/vercel.ts",
+   "line": 297,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/vercel.ts",
+   "line": 330,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/vercel.ts",
+   "line": 400,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/vercel.ts",
+   "line": 509,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: config.temperature,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/watsonx.ts",
+   "line": 82,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: z.number().min(0).max(2).optional(),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/watsonx.ts",
+   "line": 706,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(config.temperature !== undefined && { temperature: config.temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/watsonx.ts",
+   "line": 831,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(config.temperature !== undefined && { temperature: config.temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 743,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: 'XAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 745,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "? `https://${xaiConfig.region}.api.x.ai/v1`",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 746,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": ": 'https://api.x.ai/v1',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 817,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: `x.ai API error: ${response.error}\\n\\nTip: Ensure your XAI_API_KEY enviro",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 832,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: `x.ai API error: Server returned an HTML error page instead of JSON. This",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/chat.ts",
+   "line": 836,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: `x.ai API error: 502 Bad Gateway - This often indicates an invalid API ke",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 62,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "(userConfig.region ? `https://${userConfig.region}.api.x.ai/v1` : 'https://api.x",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 68,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "apiKeyEnvar: 'XAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 79,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return getEnvString('XAI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 84,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return `https://${this.config.region}.api.x.ai/v1`;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 86,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return 'https://api.x.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/image.ts",
+   "line": 177,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'xAI API key is not set. Set the XAI_API_KEY environment variable or add `apiKey",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 134,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/** API key (defaults to XAI_API_KEY env var) */",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 136,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "/** API base URL (defaults to https://api.x.ai/v1) */",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 253,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config.apiKey || this.env?.XAI_API_KEY || getEnvString('XAI_API_KEY'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 268,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return `https://${this.config.region}.api.x.ai/v1`;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 270,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return 'https://api.x.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 302,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "const temperature = config.temperature ?? 0.7;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 322,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "...(temperature === undefined ? {} : { temperature }),",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 383,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'xAI API key is not set. Set the XAI_API_KEY environment variable or add `apiKey",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/responses.ts",
+   "line": 485,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "error: `xAI API error: 502 Bad Gateway - This often indicates an invalid API key",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/video.ts",
+   "line": 104,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/** API key (defaults to XAI_API_KEY env var) */",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/video.ts",
+   "line": 136,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "const DEFAULT_API_BASE_URL = 'https://api.x.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/video.ts",
+   "line": 241,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return getEnvString('XAI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/video.ts",
+   "line": 257,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return `https://${this.config.region}.api.x.ai/v1`;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/video.ts",
+   "line": 490,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'xAI API key is not set. Set the XAI_API_KEY environment variable or add `apiKey",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 5,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "* WebSocket Endpoint: wss://api.x.ai/v1/realtime",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 29,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "export const XAI_VOICE_DEFAULT_API_URL = 'https://api.x.ai/v1';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 30,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "export const XAI_VOICE_DEFAULT_WS_URL = 'wss://api.x.ai/v1/realtime';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 103,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "region?: string; // Regional endpoint, e.g., \"us-east-1\" -> \"https://us-east-1.a",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 266,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "return this.config.apiKey || getEnvString('XAI_API_KEY');",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 285,
+   "category": "endpoint",
+   "id": "xai",
+   "snippet": "return `https://${this.config.region}.api.x.ai/v1`;",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/providers/xai/voice.ts",
+   "line": 363,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "'XAI_API_KEY is not set. Set the environment variable or add apiKey to the provi",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/plugins/codingAgent/verifiers.ts",
+   "line": 426,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/\\b(?:GITHUB_TOKEN|CI_JOB_TOKEN|ACTIONS_ID_TOKEN_REQUEST_TOKEN|NPM_TOKEN|PYPI_TO",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/plugins/codingAgent/verifiers.ts",
+   "line": 433,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/\\b(?:process\\.env|os\\.environ|ENV\\[|getenv\\s*\\(|\\$\\{\\{\\s*secrets\\.|OPENAI_API_K",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/plugins/codingAgent/verifiers.ts",
+   "line": 434,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "/\\b(?:curl|wget|fetch|https?:\\/\\/)\\b[^\\n]*(?:process\\.env|os\\.environ|ENV\\[|gete",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/plugins/harmful/common.ts",
+   "line": 29,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "} else if (getEnvString('OPENAI_API_KEY')) {",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/providers/shared.ts",
+   "line": 154,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: TEMPERATURE,",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/redteam/remoteGeneration.ts",
+   "line": 183,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "Boolean(getEnvString('OPENAI_API_KEY')) ||",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/genaiTracer.ts",
+   "line": 39,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "REQUEST_MAX_TOKENS: 'gen_ai.request.max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/genaiTracer.ts",
+   "line": 342,
+   "category": "call",
+   "id": "chat-completion",
+   "snippet": "*     return await openai.chat.completions.create({...});",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/providers/langfuse.ts",
+   "line": 68,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 'gen_ai.request.max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/providers/langfuse.ts",
+   "line": 69,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "maxTokens: 'gen_ai.request.max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/providers/langfuse.ts",
+   "line": 73,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "temperature: 'gen_ai.request.temperature',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/providers/langfuse.ts",
+   "line": 145,
+   "category": "call",
+   "id": "generate-content",
+   "snippet": "return 'generate_content';",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/tracing/sanitizeAttributes.ts",
+   "line": 24,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "'gen_ai.request.max_tokens',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/finishReason.ts",
+   "line": 8,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* - `length`: Token limit reached (max_tokens, context length, etc.)",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/finishReason.ts",
+   "line": 14,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* - Anthropic: `end_turn` → `stop`, `stop_sequence` → `stop`, `max_tokens` → `le",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/finishReason.ts",
+   "line": 19,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "* normalizeFinishReason('max_tokens')   // Returns: 'length'",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/finishReason.ts",
+   "line": 39,
+   "category": "param",
+   "id": "llm-params",
+   "snippet": "max_tokens: 'length', // Token limit reached",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 203,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "openai: 'OPENAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 204,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "anthropic: 'ANTHROPIC_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 205,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "google: 'GOOGLE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 206,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "mistral: 'MISTRAL_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 207,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "cohere: 'COHERE_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 211,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "xai: 'XAI_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 212,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "groq: 'GROQ_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 213,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "deepseek: 'DEEPSEEK_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 217,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "perplexity: 'PERPLEXITY_API_KEY',",
+   "decisionShaped": false
+  },
+  {
+   "file": "src/util/provider.ts",
+   "line": 220,
+   "category": "env-key",
+   "id": "env-keys",
+   "snippet": "togetherai: 'TOGETHER_API_KEY',",
+   "decisionShaped": false
+  }
+ ]
+}

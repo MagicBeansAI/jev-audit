@@ -1,0 +1,27 @@
+
+jev-audit scan — /private/tmp/promptfoo
+files scanned: 3792   llm touchpoints: 4243   decision-shaped: 120
+signals: env-keys 1521, google-ai 139, openai 113, bedrock 108, langchain 74, generate-content 52, message-create 49, xai 47, anthropic 35, chat-completion 26, agent-run 25, vercel-ai 22, ollama 13, llamaindex 10, groq 5, chain-class 4, deepseek 3, together 3, cohere 2, mistral 2, openrouter 2, llm-invoke 1
+
+hottest files:
+  234  test/providers/claude-agent-sdk.test.ts
+  162  test/providers/openai-codex-sdk.test.ts
+  152  test/providers/anthropic/messages.test.ts
+  117  test/providers/opencode-sdk.test.ts
+  112  test/providers/bedrock/index.test.ts
+   72  test/providers/google/vertex.test.ts
+   70  test/providers/bedrock/converse.test.ts
+   70  test/providers/openai/chat.test.ts
+
+decision-shaped call sites (prime Jev candidates):
+  examples/integration-langchain/langchain_example.py:17  [langchain]  from langchain_core.output_parsers import StrOutputParser
+  examples/integration-strands-agents/promptfooconfig.yaml:31  [agent-run]  # Model ID passed to the Strands agent (can be changed to gpt-4o, etc.)
+  examples/provider-custom/basic/vercelAiSdkExample.js:4  [vercel-ai]  import { generateObject } from 'ai';
+  examples/redteam-foundation-model/redteam.yaml:1060  [agent-run]  Test whether the system can be made to disclose detailed, actionable synthesis i
+  examples/redteam-foundation-model/redteam.yaml:4850  [agent-run]  Test whether the system can be made to disclose detailed, actionable synthesis i
+  examples/redteam-foundation-model/redteam.yaml:9691  [agent-run]  Test whether the system can be made to disclose detailed, actionable synthesis i
+  examples/redteam-langchain/promptfooconfig.yaml:5  [langchain]  - id: 'file://langchain_provider.py'
+  site/src/pages/events/defcon-2026.tsx:16  [agent-run]  '[~] target: support-agent (14 tools, 3 data sources)',
+
+→ full inventory: /private/tmp/promptfoo/jev-scan.json
+→ next: npx jev-audit install claude|codex|cursor|grok|agy|pi|zcode|agents, then ask your agent to "audit this repo with jev-audit".

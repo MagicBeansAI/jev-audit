@@ -113,6 +113,12 @@ r.answers.department.choice     // "billing" — it cannot be anything else
 r.answers.department.confidence // 0.84 → gate automation on this
 ```
 
+## See it on a real project
+
+We ran it on [promptfoo](https://github.com/promptfoo/promptfoo) — the popular LLM eval framework. The punchline: **the eval framework's own graders are decisions wearing a generator's clothes.** Its factuality check prompts an LLM, JSON-parses the reply back into a 5-option verdict, and keeps a regex fallback for when the parse fails — a Jev `choice` does this natively, at ~$0.025 vs $0.14–$2.30 per 1,000 grading calls and ~100 ms instead of seconds.
+
+→ **[Read the full promptfoo audit](examples/promptfoo/JEV_AUDIT.md)** · [raw scanner output](examples/promptfoo/scan-output.txt) · [all examples](examples/README.md)
+
 ## The one table that matters
 
 | Job at the call site | Verdict |
