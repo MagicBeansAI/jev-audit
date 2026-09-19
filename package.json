@@ -1,0 +1,41 @@
+{
+  "name": "jev-audit",
+  "version": "0.1.0",
+  "description": "Find every LLM call in your codebase that should be a Jev decision instead of a generation. Scans locally, classifies call sites, and designs the replacement architecture.",
+  "license": "MIT",
+  "author": "MagicBeansAI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicBeansAI/jev-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MagicBeansAI/jev-audit/issues"
+  },
+  "homepage": "https://github.com/MagicBeansAI/jev-audit#readme",
+  "bin": {
+    "jev-audit": "bin/jev-audit.js"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "jev",
+    "typesafe",
+    "system-one",
+    "llm",
+    "audit",
+    "cost-optimization",
+    "agent",
+    "skill",
+    "claude",
+    "codex",
+    "cursor",
+    "grok"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
